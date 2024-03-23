@@ -98,13 +98,10 @@ li {
   letter-spacing: 0.04em;
   color: #fff;
 
-  border-radius: 4px;
-  padding: 16px 32px;
   height: 56px;
   background: #4d5ae5;
   cursor: pointer;
   margin: 0 auto;
-  display: block;
 }
 
 .heroimage-button:hover,
@@ -142,11 +139,14 @@ li {
 
 /* team 3*/
 
+.team {
+  background-color: #f4f4fd;
+}
+
 .team-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
-  background-color: #ffffff;
 
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -155,11 +155,14 @@ li {
   text-align: center;
 }
 
+.team-items {
+  background-color: #ffffff;
+}
+
 .team-items-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  background-color: #f4f4fd;
 
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -170,7 +173,6 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  background-color: #f4f4fd;
 
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -184,10 +186,11 @@ li {
   font-weight: 700;
   font-size: 36px;
 
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
 }
 
 .portfolio-items {
