@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -13,10 +13,6 @@ ul,
 ol,
 li {
   list-style-type: none;
-}
-
-.address {
-  font-style: normal;
 }
 
 /* Header */
@@ -55,13 +51,17 @@ li {
   color: #404bbf;
 }
 
+.address {
+  font-style: normal;
+}
+
 .adress-link {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  line-height: 1.5;
 }
 
 .address-link:hover,
@@ -71,7 +71,7 @@ li {
 
 /* Main */
 
-/* heroimage section */
+/* heroimage section 1*/
 
 .heroimage {
   background: #2e2f42;
@@ -82,9 +82,10 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #fff;
+  text-align: center;
 }
 
 .heroimage-button {
@@ -100,6 +101,8 @@ li {
   height: 56px;
   background: #4d5ae5;
   cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 .heroimage-button:hover,
@@ -108,7 +111,7 @@ li {
   background: #404bbf;
 }
 
-/* features */
+/* features 2*/
 
 .features-title {
   visibility: hidden;
@@ -119,7 +122,7 @@ li {
   font-weight: 500;
   font-size: 20px;
 
-  line-height: 1.07;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
@@ -135,7 +138,7 @@ li {
   color: #434455;
 }
 
-/* team */
+/* team 3*/
 
 .team-title {
   font-family: "Roboto", sans-serif;
@@ -154,7 +157,7 @@ li {
   background-color: #ffffff;
 }
 
-. .team-items-title {
+.team-items-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -174,7 +177,7 @@ li {
   color: #434455;
 }
 
-/* portfolio */
+/* portfolio 4*/
 
 .portfolio-title {
   font-family: "Roboto", sans-serif;
@@ -214,7 +217,7 @@ li {
   color: #434455;
 }
 
-/* footer */
+/* footer 5*/
 
 .footer {
   background-color: #2e2f42;
@@ -227,7 +230,6 @@ li {
   font-size: 18px;
   line-height: 1.17;
 
-  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
